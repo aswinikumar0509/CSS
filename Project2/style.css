@@ -1,0 +1,67 @@
+/* body{
+    background-color: black;
+} */
+
+/* Universal Selector */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* Element Selector */
+
+/* h1{
+    color: #808081
+}
+
+p{
+    color: red;
+} */
+
+/* Class selector */
+
+/* .pra{
+    color: #560a0a;
+} */
+
+
+/* Id Selector */
+
+/* .id1{
+    color: aliceblue;
+} */
+
+/* Selector list */
+/* 
+.class1 , .class7 , .class10{
+
+} */
+
+/* Descendent Selector */
+
+main p{
+    color: red;
+}
+
+/* Child Selector */
+
+h1>p{
+    color: blue;
+}
+
+/* section+p{
+    color: red;
+} */
+
+section ~ p{
+    color: red;
+}
+
+[target="_blank"]{
+    color: pink;
+    text-decoration:none ;
+}
+
+[alt~="pw"]{
+    color:red;
+}
